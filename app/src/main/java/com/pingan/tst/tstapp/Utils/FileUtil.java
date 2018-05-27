@@ -12,6 +12,7 @@ public class FileUtil {
 
     public static File[] listAllFiles(File file){
         if(file==null || !file.exists() || file.getAbsolutePath().contains("pingan")){
+
             return null;
         }
         if(file.isFile()){
