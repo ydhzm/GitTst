@@ -1,5 +1,6 @@
 package com.pingan.tst.tstapp.Utils;
 
+import android.graphics.Bitmap;
 import android.util.Log;
 
 import java.io.File;
@@ -27,5 +28,9 @@ public class FileUtil {
     }
     public static boolean isPingAnFile(){
         return  false;
+    }
+
+    public static byte[] getShareImgByes(Bitmap bitmap){
+        return  null;
     }
 }
