@@ -33,4 +33,7 @@ public class FileUtil {
     public static byte[] getShareImgByes(Bitmap bitmap){
         return  null;
     }
+    public static boolean wxShareImgSizeGood(byte[] bytes){
+        return true;
+    }
 }
