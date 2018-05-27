@@ -25,7 +25,6 @@ public class FileUtil {
         }
         return null;
     }
-
     public static boolean isPingAnFile(){
         return  false;
     }
