@@ -27,6 +27,7 @@ public class MainActivity extends Activity {
         StringBuilder sb = new StringBuilder();
 
         Log.i("aa","ff"+Color.RED);
+        Log.i("mytest","I want to test git command:git reset HEAD");
         Color color1 = Color.RED;
         Color color2 = Color.BLACK;
         if(color1.equals(color2)){
